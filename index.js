@@ -17,7 +17,7 @@ const checkHealth = async () => {
 };
 
 // Start continuous health check every 3 seconds
-setInterval(checkHealth, 3000);
+setInterval(checkHealth, 300000);
 
 // Health route for this monitoring server
 app.get('/health', (req, res) => {
