@@ -6,7 +6,8 @@ const port = process.env.PORT || 3000;
 // List of servers you want to monitor
 const targetServers = [
   'https://brochat-2cqd.onrender.com/health',
-  'https://e-tongue-b.onrender.com/health' // Add your second server here
+  'https://e-tongue-b.onrender.com/health',
+  'https://crop-service-wkxt.onrender.com/health'// Add your second server here
 ];
 
 // Function to check health of servers
