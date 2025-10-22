@@ -9,6 +9,7 @@ const targetServers = [
   'https://e-tongue-b.onrender.com/health',
   'https://crop-service-wkxt.onrender.com/health',
   'https://replit-server-a6ve.onrender.com/health',
+  'https://dss-callbot-middleware-server.onrender.com/health',
 ];
 
 // Function to check one server’s health
