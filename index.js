@@ -7,7 +7,8 @@ const port = process.env.PORT || 3000;
 const targetServers = [
   'https://brochat-2cqd.onrender.com/health',
   'https://e-tongue-b.onrender.com/health',
-  'https://crop-service-wkxt.onrender.com/health'
+  'https://crop-service-wkxt.onrender.com/health',
+  'https://replit-server-a6ve.onrender.com/health',
 ];
 
 // Function to check one server’s health
