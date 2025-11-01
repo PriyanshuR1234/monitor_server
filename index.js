@@ -6,10 +6,13 @@ const port = process.env.PORT || 3000;
 // List of servers you want to monitor
 const targetServers = [
   'https://brochat-2cqd.onrender.com/health',
-  'https://e-tongue-b.onrender.com/health',
-  'https://crop-service-wkxt.onrender.com/health',
-  'https://replit-server-a6ve.onrender.com/health',
-  'https://dss-callbot-middleware-server.onrender.com/health',
+  // 'https://e-tongue-b.onrender.com/health',
+  // 'https://crop-service-wkxt.onrender.com/health',
+  // 'https://replit-server-a6ve.onrender.com/health',
+  // 'https://dss-callbot-middleware-server.onrender.com/health',
+  'https://dss-crop-server.onrender.com/health',
+  'https://dss-mid.onrender.com/health',
+  'https://dss-call-bot.onrender.com',
 ];
 
 // Function to check one server’s health
